@@ -16,7 +16,7 @@ var main = function() {
             $('.btn').addClass('disabled');
         }
         else if(charactersLeft = 140) {
-            $('.btn').removeClass('disabled');
+            $('.btn').addClass('disabled');
         }
     });
     
